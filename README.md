@@ -45,6 +45,9 @@ Active states
 
 ### Links
 
+- Solution URL: [Intro section with dropdown navigation solution](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-Q_3iPYi5Y_)
+- Live Site URL: [GitHub Pages](https://jimaloko.github.io/Intro-section-with-dropdown-navigation-solution/)
+
 ## My process
 
 ### Built with
