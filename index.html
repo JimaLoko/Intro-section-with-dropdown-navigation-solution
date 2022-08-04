@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="scss/main.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+ 
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+    </div>
+    <div class="header-right">
+      <div class="menu">
+        <img class="icon-menu" src="images/icon-menu.svg" alt="icon menu">
+        <img class="icon-close" src="images/icon-close-menu.svg" alt="icon close menu">
+      </div>
+      <nav>
+        <div class="nav-left">
+          <ul>
+            <li>
+              <a class="js-drop" href="">Features
+                <img class="down" src="images/icon-arrow-down.svg" alt="icon arrow">
+              </a>
+              <div class="features js-tab">
+                <ul class="list">
+                  <li>
+                    <a href="">
+                      <img src="images/icon-todo.svg" alt="icon todo list">
+                      Todo List
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <img src="images/icon-calendar.svg" alt="icon calendar">
+                      Calendar
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <img src="images/icon-reminders.svg" alt="icon reminder">
+                      Reminders
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <img src="images/icon-planning.svg" alt="icon planning">
+                      Planning
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="js-drop" href="">Company
+                <img class="down" src="images/icon-arrow-down.svg" alt="icon arrow">
+              </a>
+              <div class="company js-tab">
+                <ul class="list">
+                  <li>
+                    <a href="">
+                      History
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Our Team
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Blog
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="">Careers</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li>
+              <a class="login-btn" href="">Login</a>
+            </li>
+            <li>
+              <a class="btn" href="">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="text">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+        <a class="btn" href="">Learn more</a>
+        <ul class="icons">
+          <li>
+            <img src="images/client-databiz.svg" alt="icon databiz">
+          </li>
+          <li>
+            <img src="images/client-audiophile.svg" alt="icon audiophile">
+          </li>
+          <li>
+            <img src="images/client-meet.svg" alt="icon meet">
+          </li>
+          <li>
+            <img src="images/client-maker.svg" alt="icon maker">
+          </li>
+        </ul>
+    </div>
+    <div class="image">
+      <img class="img-desktop" src="images/image-hero-desktop.png" alt="illustration">
+      <img class="img-mobile" src="images/image-hero-mobile.png" alt="illustration">
+    </div>
+  </main>
+
+  <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="github.com/jimaloko">JimaLoko</a>.
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
